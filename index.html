@@ -2,51 +2,70 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>César Miranda – Climatización y Refrigeración</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>César Miranda | Climatización y Refrigeración</title>
+  <meta name="description" content="Servicios profesionales de climatización, refrigeración industrial y comercial en Neuquén. Mantenimiento preventivo y correctivo.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', sans-serif; }
+  </style>
 </head>
 <body class="bg-white text-gray-800">
 
+  <!-- NAV -->
+  <header class="bg-gray-900 text-white py-6 shadow-md">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">César Miranda</h1>
+      <nav class="space-x-6 text-lg hidden md:block">
+        <a href="#sobre-mi" class="hover:text-blue-400">Sobre mí</a>
+        <a href="#servicios" class="hover:text-blue-400">Servicios</a>
+        <a href="#contacto" class="hover:text-blue-400">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
   <!-- HERO -->
-  <section class="bg-gray-900 text-white py-20 px-8">
-    <div class="max-w-5xl mx-auto text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Soluciones Profesionales en Climatización y Refrigeración</h1>
-      <p class="text-lg md:text-xl mb-6">Servicio técnico autónomo para empresas en Neuquén</p>
-      <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg text-lg transition">Solicitar asesoría</a>
+  <section class="bg-gradient-to-br from-gray-900 to-gray-800 text-white text-center py-24 px-6" id="inicio">
+    <div class="max-w-4xl mx-auto" data-aos="fade-up">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Especialista en Climatización y Refrigeración</h2>
+      <p class="text-xl md:text-2xl mb-8">Soluciones para empresas, comercios e industrias en Neuquén</p>
+      <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-lg transition">Solicitar Asesoría</a>
     </div>
   </section>
 
   <!-- SOBRE MÍ -->
-  <section class="py-16 px-8 bg-gray-100" id="sobre-mi">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-semibold mb-4">Sobre César Miranda</h2>
-      <p class="text-lg leading-relaxed">
-        Técnico con amplia trayectoria en mantenimiento preventivo y correctivo de equipos de refrigeración y climatización. Experiencia comprobada en calefacción central, calderas, cámaras frigoríficas, heladeras industriales y domiciliarias.
+  <section id="sobre-mi" class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-4">¿Quién soy?</h2>
+      <p class="text-lg leading-relaxed text-gray-700">
+        Soy César Miranda, técnico especializado en refrigeración y climatización con más de 10 años de experiencia en mantenimiento preventivo y correctivo de equipos industriales, comerciales y domiciliarios.
+        Brindo asesoría técnica y soluciones efectivas para empresas que buscan eficiencia y calidad en sus sistemas térmicos.
       </p>
     </div>
   </section>
 
   <!-- SERVICIOS -->
-  <section class="py-16 px-8">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-semibold text-center mb-10">Servicios</h2>
-      <div class="grid md:grid-cols-2 gap-8">
+  <section id="servicios" class="bg-gray-100 py-20 px-6">
+    <div class="max-w-6xl mx-auto" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-center mb-12">Servicios</h2>
+      <div class="grid md:grid-cols-2 gap-10">
         <div>
-          <h3 class="text-xl font-semibold mb-2">Reparación y mantenimiento</h3>
-          <ul class="list-disc list-inside text-gray-700">
-            <li>Equipos de refrigeración comercial e industrial</li>
+          <h3 class="text-xl font-semibold mb-2">Mantenimiento y Reparación</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
             <li>Calderas, calefacción central y tubos radiantes</li>
-            <li>Heladeras exhibidoras, bateas, cámaras frigoríficas</li>
-            <li>Heladeras domiciliarias</li>
+            <li>Heladeras comerciales, cámaras frigoríficas</li>
+            <li>Heladeras domiciliarias y exhibidoras</li>
+            <li>Quemadores, Roof Top y más</li>
           </ul>
         </div>
         <div>
-          <h3 class="text-xl font-semibold mb-2">Asesoría técnica y obras</h3>
-          <ul class="list-disc list-inside text-gray-700">
+          <h3 class="text-xl font-semibold mb-2">Asesoría Técnica en Obras</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
             <li>Preinstalación de cañerías para A/C y calefacción</li>
-            <li>Cálculos térmicos para proyectos de climatización</li>
-            <li>Relevamientos técnicos en obra</li>
+            <li>Cálculos térmicos personalizados</li>
+            <li>Relevamientos en planta y obras en ejecución</li>
           </ul>
         </div>
       </div>
@@ -54,20 +73,25 @@
   </section>
 
   <!-- CONTACTO -->
-  <section id="contacto" class="py-16 px-8 bg-gray-100">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-semibold mb-4">Contacto</h2>
-      <p class="text-lg mb-6">¿Necesitás asesoramiento técnico o una reparación urgente? Estoy a tu disposición.</p>
-      <a href="https://wa.me/5492994100238" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg text-lg transition">
+  <section id="contacto" class="py-20 px-6 bg-gray-900 text-white">
+    <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-4">¿Necesitás ayuda profesional?</h2>
+      <p class="text-lg mb-6">Contactame y obtené una solución eficiente para tu empresa</p>
+      <a href="https://wa.me/5492994100238" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg text-lg transition">
         Contactar por WhatsApp
       </a>
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-gray-900 text-white text-center py-6 mt-10">
-    <p>&copy; 2025 César Miranda – Técnico en Refrigeración y Climatización | Neuquén</p>
+  <footer class="bg-gray-800 text-center text-white py-6">
+    <p>&copy; 2025 César Miranda. Servicios de Refrigeración y Climatización · Neuquén, Argentina</p>
   </footer>
 
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
