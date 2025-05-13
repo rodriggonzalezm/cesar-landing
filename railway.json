@@ -1,0 +1,16 @@
+{
+    "build": {
+      "env": {},
+      "commands": []
+    },
+    "deploy": {
+      "startCommand": "",
+      "healthcheckPath": "/",
+      "restartPolicyType": "ON_FAILURE"
+    },
+    "static": {
+      "publicDir": ".",
+      "ignore": []
+    }
+  }
+  
